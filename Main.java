@@ -13,4 +13,37 @@ public class Main {
             System.out.print("Enter first number: ");
             double num1 = sc.nextDouble();
             double num2;
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter second number: ");
+                    num2 = sc.nextDouble();
+                    System.out.println("Result: " + Addition.add(num1, num2));
+                    break;
+                case 2:
+                    System.out.print("Enter second number: ");
+                    num2 = sc.nextDouble();
+                    System.out.println("Result: " + Subtraction.subtract(num1, num2));
+                    break;
+                case 3:
+                    System.out.print("Enter second number: ");
+                    num2 = sc.nextDouble();
+                    System.out.println("Result: " + Multiplication.multiply(num1, num2));
+                    break;
+                case 4:
+                    System.out.print("Enter second number: ");
+                    num2 = sc.nextDouble();
+                    System.out.println("Result: " + Division.divide(num1, num2));
+                    break;
+                case 5:
+                    System.out.println("Square: " + Square.square(num1));
+                    break;
+                case 6:
+                    System.out.println("Cube: " + Cube.cube(num1));
+                    break;
+                case 7:
+                    System.out.println("Square Root: " + Squareroot.squareRoot(num1));
+                    break;
+                default:
+                    System.out.println("Invalid Choice!");
+            }
 }
