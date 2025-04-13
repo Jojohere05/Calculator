@@ -46,4 +46,6 @@ public class Main {
                 default:
                     System.out.println("Invalid Choice!");
             }
+            catch (Exception e) {
+                System.out.println("Error occurred: " + e.getMessage());
 }
