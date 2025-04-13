@@ -3,4 +3,6 @@ public class Squareroot {
         if (a < 0) {
             throw new ArithmeticException("Cannot find square root of negative number.");
         }
+        return Math.sqrt(a);
+}
 }
