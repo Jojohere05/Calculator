@@ -16,14 +16,13 @@ Each operation is defined in a separate Java class for modularity.
 
 ## How to Run
 1. Compile all `.java` files using: `javac *.java`
-2. Run the main program: `java CalculatorMain`
+2. Run the main program: `java Main`
 ## Exception Handling
 - Division by zero
 - Square root of negative number
 - Input mismatch
 
 ## Author Info
-- **Name**: 
-- **PRN**: [Your PRN]
-- **Batch**: [Your Batch]
-# Calculator
+- **Name**: JHOTIKA RAJA
+- **PRN**: 23070126050
+- **Batch**: A2
