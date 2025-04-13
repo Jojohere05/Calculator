@@ -9,5 +9,8 @@ public class Main {
         System.out.println("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Square\n6. Cube\n7. Square Root");
 
         int choice = sc.nextInt();
-
+        try {
+            System.out.print("Enter first number: ");
+            double num1 = sc.nextDouble();
+            double num2;
 }
