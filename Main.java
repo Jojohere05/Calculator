@@ -47,5 +47,11 @@ public class Main {
                     System.out.println("Invalid Choice!");
             }
             catch (Exception e) {
-                System.out.println("Error occurred: " + e.getMessage());
+                System.out.println("Error occurred: " + e.getMessage());}
+            finally {
+                    sc.close();
+                }
+
+        }
+    }
 }
